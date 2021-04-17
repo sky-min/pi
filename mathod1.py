@@ -7,7 +7,8 @@ polygon=6
 side=1
 
 n=20 
-
+f = open("mathod1_result.txt", 'a')
+f.close()
 os.remove(r"mathod1_result.txt")
 
 f = open("mathod1_result.txt", 'a')
